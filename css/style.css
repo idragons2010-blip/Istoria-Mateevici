@@ -134,3 +134,35 @@ section{
     margin-bottom: 15px;
     padding-right: 30px;
 }
+
+#hamburger{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    right: 22px;
+    top : 24px;
+    cursor:pointer;
+    display: none;
+}
+
+
+/*media*/
+
+@media(max-width: 800px){
+    
+    section {
+        padding: 90px 10px; 
+    }
+
+    navbar a {
+        display: none;
+    }
+
+    navbar.mobile a {
+        display: block;
+    }
+
+    #hamburger{
+        display: block;
+    }
+}
