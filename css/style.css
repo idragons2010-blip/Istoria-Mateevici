@@ -1,0 +1,136 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    min-height: 100vh;
+}
+
+
+header{
+    background: #2d4057;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 15px 5px 15px;
+}
+
+navbar{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow: auto;
+}
+
+navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+navbar a:hover{
+    color:#f3deca;
+    text-decoration: underline 1px;
+}
+
+footer{
+    min-height: 80px;
+    background: #2d4057;
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    margin-top: 0;
+}
+
+h1{
+    font-size: 270%;
+}
+
+h2{
+    font-size: 200%;
+}
+
+section{
+    padding-top: 90px;
+}
+
+.logo{
+    height: 50px;
+}
+
+#index{
+    background: linear-gradient(#00000044, #00000083),url('../images/537e7d_b9a984d065a3465eae5c77b1dd0cfc41-Picsart-AiImageEnhancer.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.index-info{
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.index-info h1 {
+    font-size: 350%;
+    color: white;
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #2d405763;
+}
+
+.link-index{
+    color: white;
+    text-decoration: underline #fa9483 2px;
+    font-size: 20px;
+}
+
+.link-index:hover{
+    color: #f3deca;
+}
+
+.centered{
+    text-align: center;
+}
+
+.paragraf{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.paragraf {
+    padding: 0 30px;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.i_111638 {
+    float: left;
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.i_111413 {
+    float: right;
+    width: 450px;
+    height: auto;
+    object-fit: contain;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    padding-right: 30px;
+}
