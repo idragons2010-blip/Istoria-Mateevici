@@ -20,6 +20,15 @@ header{
     padding: 10px 15px 5px 15px;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #2d4057;
+}
+
 navbar{
     margin-left: 30px;
     margin-bottom: 10px;
@@ -189,6 +198,11 @@ section{
     position: relative;
     height: 300px;
     border-radius: 25px;
+}
+
+.catedra img {
+    position: relative;
+    z-index: 1;
 }
 
 .catedra img {
