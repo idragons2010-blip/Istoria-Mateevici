@@ -188,7 +188,6 @@ section{
 .catedra {
     position: relative;
     height: 300px;
-    overflow: hidden;
     border-radius: 25px;
 }
 
