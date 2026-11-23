@@ -169,13 +169,13 @@ section{
     padding-left: 30px;
 }
 
-#hamburger{
+#hamburger {
     color: white;
     font-size: 28px;
     position: absolute;
     right: 22px;
-    top : 24px;
-    cursor:pointer;
+    top: 24px;
+    cursor: pointer;
     display: none;
 }
 
@@ -314,8 +314,11 @@ section{
     }
 
     #hamburger {
+        display: block;
+        position: absolute;
         right: 22px;
         top: 20px;
+        z-index: 1001;
     }
 
     .catedre {
