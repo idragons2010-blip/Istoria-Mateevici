@@ -18,15 +18,11 @@ header{
     width: 100%;
     top: 0;
     padding: 10px 15px 5px 15px;
-}
-
-header {
-    position: fixed;
-    top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: #2d4057;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 navbar{
@@ -34,6 +30,9 @@ navbar{
     margin-bottom: 10px;
     display: inline-block;
     overflow: auto;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 navbar a {
@@ -241,6 +240,17 @@ section{
     
     section {
         padding: 90px 10px; 
+    }
+
+    navbar {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    navbar.mobile {
+        width: 100%;
+        left: 0;
+        right: 0;
     }
 
     navbar a {
