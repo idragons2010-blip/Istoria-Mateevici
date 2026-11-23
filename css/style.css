@@ -3,12 +3,20 @@
     box-sizing: border-box;
 }
 
-body{
+html, body{
     margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 main{
-    min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -47,12 +55,22 @@ navbar a:hover{
     text-decoration: underline 1px;
 }
 
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../images/537e7d_b9a984d065a3465eae5c77b1dd0cfc41-Picsart-AiImageEnhancer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 footer{
     min-height: 80px;
     background: #2d4057;
     text-align: center;
     color: white;
     padding-top: 35px;
+    width: 100%;
+    max-width: 100%;
 }
 
 h1 , h2 , h3 , h4 , h5 , h6{
