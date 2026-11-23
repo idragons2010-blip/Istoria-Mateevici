@@ -40,7 +40,32 @@ navbar a {
     font-size: 28px;
     cursor: pointer;
 }
+.profesori {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
 
+.franceza,
+.engleza {
+    flex: 1;
+}
+
+.franceza {
+    text-align: right;
+}
+
+.engleza {
+    text-align: left;
+}
+
+.franceza h3 {
+    padding-right: 30px;
+}
+
+.franceza p {
+    padding-right: 50px;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -60,7 +85,7 @@ main {
 }
 .i_cicala{
     float: left;
-    width: 400px;
+    width: 200px;
     height: auto;
     object-fit: contain;
     margin-right: 25px;
@@ -141,6 +166,20 @@ section{
     height: 50px;
 }
 
+.shorts-container {
+    width: 100%;
+    max-width: 350px;
+    aspect-ratio: 9 / 16;
+    margin: 30px auto;
+}
+
+.shorts-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
 #index{
     background: linear-gradient(#00000044, #00000083),url('../images/537e7d_b9a984d065a3465eae5c77b1dd0cfc41-Picsart-AiImageEnhancer.jpg');
     background-size: cover;
@@ -191,7 +230,7 @@ section{
 
 .i_111638 {
     float: left;
-    width: 400px;
+    width: 200px;
     height: auto;
     object-fit: contain;
     margin-right: 25px;
@@ -201,7 +240,7 @@ section{
 
 .i_111413 {
     float: right;
-    width: 450px;
+    width: 250px;
     height: auto;
     object-fit: contain;
     margin-left: 25px;
@@ -210,7 +249,7 @@ section{
 }
 .i_psiholog{
     float: left;
-    width: 400px;
+    width: 200px;
     height: auto;
     object-fit: contain;
     margin-right: 25px;
@@ -302,6 +341,28 @@ section{
         overflow: hidden;
     }
 
+    .profesori {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .franceza,
+    .engleza {
+        width: 100%;
+        text-align: center;
+    }
+
+    .franceza h3,
+    .franceza p {
+        padding: 0;
+    }
+
+    .franceza p,
+    .engleza p {
+        text-align: center;
+        font-size: 20px;
+    }
+
     .index-info {
         width: 100%;
         padding: 0 10px;
@@ -316,10 +377,13 @@ section{
 
     .i_111638{
         padding: auto;
+        height: 150;
     }
+    
     
     .i_111413{
         padding: 90px 10px;
+        height: 150;
     }
     
     section {
