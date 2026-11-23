@@ -247,6 +247,24 @@ section{
 
 @media(max-width: 800px){
 
+    #index {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .index-info {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .index-info h1 {
+        max-width: 100%;
+        font-size: clamp(24px, 7vw, 40px);
+        padding: 12px;
+        overflow-wrap: break-word;
+    }
+
     .i_111638{
         padding: auto;
     }
